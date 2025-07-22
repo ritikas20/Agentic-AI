@@ -20,10 +20,10 @@ This project demonstrates an **agentic AI system** using [LangGraph](https://git
 <img width="670" height="289" alt="image" src="https://github.com/user-attachments/assets/5748520b-e234-43f3-9de4-8efcff8cae48" />
 
 ## 🚀 Setup Instructions
-
+```bash
 ### 1. Clone the repo
 
-```bash
+
 git clone https://github.com/your-username/Agentic-AI
 cd Agentic-AI
 
@@ -36,6 +36,11 @@ Create a .env file:
 
 OPENAI_API_KEY=your-openai-key
 TAVILY_API_KEY=your-tavily-key
+
+### 4. Run the code in terminal
+python app1.py
+```bash
+
 
 
 
