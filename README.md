@@ -1,6 +1,7 @@
-# 🧠 Agentic AI: Market Research Assistant with LangGraph
+# 🤖 Agentic AI Market Research Bot (LLaMA3 + LangGraph + Flask)
 
-This project implements an LLM-powered chat assistant for market research using LangChain + LangGraph + Flask. It simulates a smart agent that performs autonomous research on any product and maintains conversational memory across questions like a human strategist.
+This project demonstrates a **multi-step autonomous agent** built using [LangGraph](https://github.com/langchain-ai/langgraph), [Groq's LLaMA3 8B](https://console.groq.com/), and [Tavily](https://www.tavily.com/) search API.  
+It powers a Flask web app that performs real-time market research based on user queries.
 
 Ask:
 "What are the current trends for electric toothbrushes?"
