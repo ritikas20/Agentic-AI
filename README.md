@@ -16,6 +16,6 @@ This project demonstrates an **agentic AI system** using [LangGraph](https://git
 - **[Tavily Search API](https://app.tavily.com/)** – for real-time search results
 - **[OpenAI GPT-4](https://platform.openai.com/)** – for summarization and strategy generation
 - **Python 3.9+**
-![Uploading image.png…]()
+
 
 
