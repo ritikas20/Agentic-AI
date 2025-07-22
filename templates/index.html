@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agentic Market Research Bot</title>
+</head>
+<body>
+    <h2>🔎 Market Research ChatBot</h2>
+    <form method="POST">
+        <input type="text" name="product" placeholder="Enter product..." required>
+        <button type="submit">Generate Report</button>
+    </form>
+
+    {% if file %}
+    <p>✅ Report saved: <strong>{{ file }}</strong></p>
+    {% endif %}
+</body>
+</html>

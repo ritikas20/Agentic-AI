@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agentic ChatBot</title>
+  <style>
+    body { font-family: sans-serif; background: #f9f9f9; padding: 30px; }
+    .chat { max-width: 700px; margin: auto; }
+    .message { margin-bottom: 15px; }
+    .user { font-weight: bold; color: #333; }
+    .bot { color: #004080; }
+    form { margin-top: 20px; display: flex; }
+    input[type="text"] {
+      flex: 1; padding: 10px; font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #004080;
+      color: white; border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="chat">
+    <h2>💬 Market Research ChatBot</h2>
+    <div id="chat-window">
+      {% for sender, message in history %}
+        <div class="message">
+          <span class="{{ 'user' if sender == 'You' else 'bot' }}">{{ sender }}:</span>
+          {{ message }}
+        </div>
+      {% endfor %}
+    </div>
+
+    <form method="post">
+      <input type="text" name="message" placeholder="Ask me anything..." required>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</body>
+</html>
