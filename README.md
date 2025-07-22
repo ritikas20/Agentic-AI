@@ -17,5 +17,7 @@ This project demonstrates an **agentic AI system** using [LangGraph](https://git
 - **[OpenAI GPT-4](https://platform.openai.com/)** – for summarization and strategy generation
 - **Python 3.9+**
 
+<img width="670" height="289" alt="image" src="https://github.com/user-attachments/assets/5748520b-e234-43f3-9de4-8efcff8cae48" />
+
 
 
