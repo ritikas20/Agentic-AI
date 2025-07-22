@@ -27,6 +27,17 @@ This project demonstrates an **agentic AI system** using [LangGraph](https://git
 git clone https://github.com/your-username/Agentic-AI
 cd Agentic-AI
 
+### 2. Install dependencies
+
+pip install -r requirements.txt
+
+### 3. Add API keys
+Create a .env file:
+
+OPENAI_API_KEY=your-openai-key
+TAVILY_API_KEY=your-tavily-key
+
+
 
 
 
