@@ -33,6 +33,6 @@ def index():
     return render_template("chat.html", history=session["chat_history"])
 
 
-# ✅ This is required to launch the server
+
 if __name__ == "__main__":
     app.run(debug=True)
